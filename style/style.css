@@ -1,0 +1,27 @@
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: pink;
+  text-transform: uppercase;
+  background: skyblue;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+h1:active {
+  color: #ff6680;
+}
+
+button {
+  background-color: khaki;
+  border: none;
+  margin: .5rem;
+  border-radius: 0;
+  cursor: pointer;
+}
