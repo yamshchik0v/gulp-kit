@@ -3,6 +3,7 @@ __Requires Node.js installed__
 <a id='top'> </a>
 
 [nodejs.org](https://nodejs.org/en)
+
 [gulpjs.com](https://gulpjs.com)
 
 ### Installation:
@@ -11,9 +12,9 @@ Install gulp-cli globally:
 ``` bash
    npm i -g gulp-cli
 ```
-Initialize project in your project directory and create clean `package.json` file:
+Initialize project in your project directory and create `package.json` file (-y to yes to everything):
 ``` bash
-   npm init
+   npm init -y
 ```
 Create gulp core there:
 ``` bash
